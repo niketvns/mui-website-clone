@@ -51,6 +51,13 @@ ul li {
     cursor: pointer;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ul li:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+
 }
 
 .nav-right {
@@ -447,6 +454,10 @@ header {
     color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
     font-weight: 500;
+}
+
+.opt-btn:hover {
+    background-color: rgba(0, 0, 0, 0.03);
 }
 
 
@@ -855,6 +866,18 @@ header {
     background-color: transparent;
 }
 
+
+
+
+@media screen and (min-width: 1700px) {
+
+
+    header {
+        justify-content: space-evenly;
+    }
+}
+
+
 @media screen and (max-width: 1450px) {
     .div3 {
         display: none;
@@ -909,7 +932,20 @@ header {
         font-size: 12px;
     }
 
+    header {
+        justify-content: center;
+    }
+
+    .div1 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
     .nav-right input {
+        display: none;
+    }
+
+    .nav-right span {
         display: none;
     }
 
