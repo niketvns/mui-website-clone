@@ -888,6 +888,7 @@ header {
     header {
         justify-content: space-around;
         flex-wrap: wrap;
+        gap: 30px;
     }
 
     .div2 {
