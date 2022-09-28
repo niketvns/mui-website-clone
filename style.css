@@ -879,13 +879,15 @@ header {
 
 
 @media screen and (max-width: 1450px) {
+
     .div3 {
-        display: none;
+        /* display: none; */
     }
 
 
     header {
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .div2 {
@@ -898,9 +900,12 @@ header {
         font-size: 14px;
     }
 
+    .div1 {
+        margin-top: 100px;
+    }
 
     nav {
-        justify-content: space-evenly;
+        justify-content: space-around;
         gap: 0px;
     }
 
@@ -919,7 +924,7 @@ header {
     }
 
     .div2 {
-        display: none;
+        /* display: none; */
     }
 
     header {
